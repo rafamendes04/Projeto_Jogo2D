@@ -3,11 +3,9 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário [FEI](
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
-- Nome Componente 4
-- Nome Componente 5
+- Rafael Takahagi Mendes (R.A: 22.126.084-7)
+- João Pedro Lopes
+- Gabriel Koiama
 
 ## Tópicos
 - [Introdução](./docs/1-introducao.md)

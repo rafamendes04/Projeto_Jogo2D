@@ -2,14 +2,40 @@
 
 - Apresente os elementos formais do jogo
     - Qual o padrão de interação do jogador?
-    - Qual o objetivo do jogo? 
+        - O jogador controla o protagonista de forma direta, em um ambiente 2D com movimentação lateral. A interação acontece por meio de botões de ação (soco, chute, pulo e habilidade especial), enfrentando inimigos que aparecem em ondas ao longo do cenário.
+- Qual o objetivo do jogo?
+    - Avançar pelas fases da cidade derrotando todos os inimigos e seus chefes, até chegar ao líder da organização criminosa e derrotá-lo, libertando a cidade.
         - Quando o jogador ganha?
+            -  Quando derrota o chefe final do jogo (líder da organização criminosa), concluindo as 3 fases.
         - Quando o jogador perde?
+            - Quando a vida do protagonista chega a zero, encerrando a partida. 
     - Quais são as regrsas do jogo?
+        - O jogador só pode avançar no cenário após derrotar todos os inimigos da onda atual
+        - A habilidade especial só está disponível após derrotar uma certa quantidade de inimigos
+        - Se a vida chegar a zero, o jogador perde
+        - Itens coletáveis no cenário podem restaurar vida ou conceder bônus
+        - Cada fase termina com um confronto obrigatório contra um boss
+ 
     - Quais são os procedimentos do jogo?
+        - O jogador inicia a fase e começa a se mover lateralmente pelo cenário
+        - Inimigos aparecem em ondas e devem ser derrotados para avançar
+        - O jogador usa socos, chutes, pulos e habilidades para eliminar os inimigos
+        - Ao limpar todas as ondas, o boss da fase aparece
+        - Após derrotar o boss, o jogador avança para a próxima fase
+        - Ao concluir as 3 fases, o jogo termina com a vitória
     - Quais os recursos do jogo?
+        - Vida do protagonista (representada na HUD)
+        - Habilidade especial (desbloqueada ao derrotar inimigos)
+        - Itens coletáveis espalhados pelo cenário (recuperam vida ou dão bônus)
+        - Pontuação acumulada ao longo das fases
     - Quais os limites do jogo?
+        - O cenário é linear, o jogador só pode avançar para frente (não volta para fases anteriores)
+        - O jogador não pode avançar no mapa enquanto houver inimigos vivos na onda atual
+        - A habilidade especial tem condição de uso (precisa ser desbloqueada)
+        - O jogo possui 3 fases, cada uma com cenário urbano diferente 
     - Quais os resultados do jogo?
         - Como ele termina depois da vitoria
+            - Após a vitória: O protagonista derrota o líder criminoso, restaurando a ordem na cidade. Uma tela de conclusão é exibida, encerrando a jornada do personagem com a missão cumprida.
         - Como ele termina depois da derrota
+            - Após a derrota: A vida do protagonista chega a zero e o jogo exibe uma tela de game over, dando ao jogador a opção de tentar novamente ou voltar ao menu principal.  
 
